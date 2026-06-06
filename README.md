@@ -2,9 +2,12 @@
 
 <a id="top"></a>
 
+![OdooxKSV-Hackthon](https://img.shields.io/badge/OdooxKSV-Hackthon-orange)
+![GitHub repo size](https://img.shields.io/github/repo-size/YashvardhanJani/VendorBridge)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![GSSoC26](https://img.shields.io/badge/OdooxKSV-Hackthon-orange)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YashvardhanJani.VendorBridge&left_color=grey&right_color=black&format=true)
+
 
 > **Enterprise-Grade B2B Procurement Lifecycle Management System**
 >
@@ -14,15 +17,14 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Tech Stack](#tech-stack)
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [Documentation](#documentation)
-- [Development](#development)
-- [Deployment](#deployment)
-- [Support](#support)
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Quick Start](#-quick-start)
+- [Project Structure](#-project-structure)
+- [Documentation](#-documentation)
+- [Development](#-development)
+- [Support](#-support--troubleshooting)
 
 ---
 
