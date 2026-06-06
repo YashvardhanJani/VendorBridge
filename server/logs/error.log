@@ -1,0 +1,20 @@
+2026-06-06 10:07:27 [error]: Error: querySrv ECONNREFUSED _mongodb._tcp.credit-platform.m7gygkr.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+2026-06-06 10:08:00 [error]: Error: querySrv ECONNREFUSED _mongodb._tcp.credit-platform.m7gygkr.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+2026-06-06 10:16:55 [error]: Error: querySrv ECONNREFUSED _mongodb._tcp.credit-platform.m7gygkr.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+2026-06-06 10:54:51 [error]: ❌ Authentication API Test failed:
+2026-06-06 10:56:25 [error]: Error: Duplicate entry 'u-officer-001' for key 'users.PRIMARY'
+    at runSetup (C:\odooxksv\server\src\dbSetup.ts:34:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-06 11:09:19 [error]: Error: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'vendor.purchase_orders.created_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at getDashboardStats (C:\odooxksv\server\src\controllers\dashboardController.ts:145:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-06 11:09:19 [error]: ❌ Dashboard Stats Integration Test failed:
+2026-06-06 11:09:46 [error]: Error: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'vendor.purchase_orders.created_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at getDashboardStats (C:\odooxksv\server\src\controllers\dashboardController.ts:145:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-06 12:37:31 [error]: Error: Column 'vendor_id' cannot be null
+    at inviteVendors (C:\odooxksv\server\src\controllers\rfqController.ts:247:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)

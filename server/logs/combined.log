@@ -1,0 +1,411 @@
+2026-06-06 10:07:27 [error]: Error: querySrv ECONNREFUSED _mongodb._tcp.credit-platform.m7gygkr.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+2026-06-06 10:08:00 [error]: Error: querySrv ECONNREFUSED _mongodb._tcp.credit-platform.m7gygkr.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+2026-06-06 10:08:00 [warn]: ⚠️  Some features will not work until MongoDB is connected.
+2026-06-06 10:08:00 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 10:08:00 [info]: 📋 Environment: development
+2026-06-06 10:16:55 [error]: Error: querySrv ECONNREFUSED _mongodb._tcp.credit-platform.m7gygkr.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+2026-06-06 10:16:55 [warn]: ⚠️  Some features will not work until MongoDB is connected.
+2026-06-06 10:16:55 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 10:16:55 [info]: 📋 Environment: development
+2026-06-06 10:41:22 [info]: Starting MySQL Database Setup...
+2026-06-06 10:41:22 [info]: Reading schema from: C:\odooxksv\database\schema.sql
+2026-06-06 10:41:22 [info]: Executing Schema SQL...
+2026-06-06 10:41:24 [info]: ✅ Schema SQL executed successfully.
+2026-06-06 10:41:24 [info]: Reading seed data from: C:\odooxksv\database\seed.sql
+2026-06-06 10:41:24 [info]: Executing Seed SQL...
+2026-06-06 10:41:24 [info]: ✅ Seed SQL executed successfully.
+2026-06-06 10:41:24 [info]: 🎉 MySQL Database Setup Completed Successfully!
+2026-06-06 10:43:27 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 10:43:28 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 10:43:28 [info]: 📋 Environment: development
+2026-06-06 10:46:28 [http]: [0mGET / [33m404[0m 3.554 ms - 43[0m
+2026-06-06 10:46:28 [http]: [0mGET /favicon.ico [33m404[0m 0.406 ms - 43[0m
+2026-06-06 10:54:50 [info]: Starting Authentication API Tests...
+2026-06-06 10:54:50 [info]: Test 1: GET /api/auth/me without token
+2026-06-06 10:54:50 [http]: [0mGET /api/auth/me [33m401[0m 1.566 ms - 61[0m
+2026-06-06 10:54:51 [info]: Status: 401, Expected: 401
+2026-06-06 10:54:51 [info]: Test 2: POST /api/auth/login with Admin credentials
+2026-06-06 10:54:51 [http]: [0mPOST /api/auth/login [33m401[0m 193.103 ms - 53[0m
+2026-06-06 10:54:51 [info]: Status: 401, Expected: 200
+2026-06-06 10:56:06 [info]: Admin user found: Anita Reddy, role: Admin
+2026-06-06 10:56:06 [info]: Stored Hash: $2a$10$8K1p/a0dL1LXMIgoEDFrwOfMQkf7E7GiTl0U4VQJ5Y1L5kz5GMWWK
+2026-06-06 10:56:06 [info]: Password comparison result: false
+2026-06-06 10:56:06 [info]: Newly generated hash for password123: $2b$10$vcI6VYCZ6T5MGM0Tyelr6e0kyH.pA52yJBb7X5RQPUPcZQpQ89HJa
+2026-06-06 10:56:23 [info]: Starting MySQL Database Setup...
+2026-06-06 10:56:23 [info]: Reading schema from: C:\odooxksv\database\schema.sql
+2026-06-06 10:56:23 [info]: Executing Schema SQL...
+2026-06-06 10:56:25 [info]: ✅ Schema SQL executed successfully.
+2026-06-06 10:56:25 [info]: Reading seed data from: C:\odooxksv\database\seed.sql
+2026-06-06 10:56:25 [info]: Executing Seed SQL...
+2026-06-06 10:56:25 [error]: Error: Duplicate entry 'u-officer-001' for key 'users.PRIMARY'
+    at runSetup (C:\odooxksv\server\src\dbSetup.ts:34:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-06 10:56:42 [info]: Starting MySQL Database Setup...
+2026-06-06 10:56:42 [info]: Cleaning up existing tables if any...
+2026-06-06 10:56:45 [info]: ✅ Database cleaned up.
+2026-06-06 10:56:45 [info]: Reading schema from: C:\odooxksv\database\schema.sql
+2026-06-06 10:56:45 [info]: Executing Schema SQL...
+2026-06-06 10:56:49 [info]: ✅ Schema SQL executed successfully.
+2026-06-06 10:56:49 [info]: Reading seed data from: C:\odooxksv\database\seed.sql
+2026-06-06 10:56:49 [info]: Executing Seed SQL...
+2026-06-06 10:56:49 [info]: ✅ Seed SQL executed successfully.
+2026-06-06 10:56:49 [info]: 🎉 MySQL Database Setup Completed Successfully!
+2026-06-06 10:57:00 [info]: Starting Authentication API Tests...
+2026-06-06 10:57:00 [info]: Test 1: GET /api/auth/me without token
+2026-06-06 10:57:00 [http]: [0mGET /api/auth/me [33m401[0m 0.398 ms - 61[0m
+2026-06-06 10:57:00 [info]: Status: 401, Expected: 401
+2026-06-06 10:57:00 [info]: Test 2: POST /api/auth/login with Admin credentials
+2026-06-06 10:57:00 [http]: [0mPOST /api/auth/login [32m200[0m 97.502 ms - 342[0m
+2026-06-06 10:57:00 [info]: Status: 200, Expected: 200
+2026-06-06 10:57:00 [info]: Logged in as: Anita Reddy (Admin)
+2026-06-06 10:57:00 [info]: Test 3: GET /api/auth/me with valid token
+2026-06-06 10:57:00 [http]: [0mGET /api/auth/me [32m200[0m 3.617 ms - 152[0m
+2026-06-06 10:57:00 [info]: Status: 200, Expected: 200
+2026-06-06 10:57:00 [info]: Test 4: POST /api/auth/signup for new vendor
+2026-06-06 10:57:00 [http]: [0mPOST /api/auth/signup [32m201[0m 112.495 ms - 418[0m
+2026-06-06 10:57:00 [info]: Status: 201, Expected: 201
+2026-06-06 10:57:00 [info]: Signed up new user: vendor_8690@vendorbridge.com
+2026-06-06 10:57:00 [info]: 🎉 All Authentication API Tests Passed Successfully!
+2026-06-06 11:00:31 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 11:00:31 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 11:00:31 [info]: 📋 Environment: development
+2026-06-06 11:09:19 [info]: Starting Dashboard Stats API Tests...
+2026-06-06 11:09:19 [info]: --------------------------------------------------
+2026-06-06 11:09:19 [info]: Testing Dashboard for Role: Admin (admin@vendorbridge.com)
+2026-06-06 11:09:19 [http]: [0mPOST /api/auth/login [32m200[0m 170.695 ms - 342[0m
+2026-06-06 11:09:19 [info]: Successfully logged in as: Anita Reddy
+2026-06-06 11:09:19 [error]: Error: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'vendor.purchase_orders.created_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at getDashboardStats (C:\odooxksv\server\src\controllers\dashboardController.ts:145:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-06 11:09:19 [http]: [0mGET /api/dashboard/stats [31m500[0m 29.008 ms - 49[0m
+2026-06-06 11:09:19 [error]: ❌ Dashboard Stats Integration Test failed:
+2026-06-06 11:09:46 [http]: [0mPOST /api/auth/login [32m200[0m 121.209 ms - 342[0m
+2026-06-06 11:09:46 [error]: Error: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'vendor.purchase_orders.created_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at getDashboardStats (C:\odooxksv\server\src\controllers\dashboardController.ts:145:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-06 11:09:46 [http]: [0mGET /api/dashboard/stats [31m500[0m 7.061 ms - 49[0m
+2026-06-06 11:09:57 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 11:09:57 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 11:09:57 [info]: 📋 Environment: development
+2026-06-06 11:10:01 [http]: [0mPOST /api/auth/login [32m200[0m 156.759 ms - 342[0m
+2026-06-06 11:10:01 [http]: [0mGET /api/dashboard/stats [32m200[0m 28.917 ms - 1552[0m
+2026-06-06 11:10:01 [http]: [0mPOST /api/auth/login [32m200[0m 122.215 ms - 354[0m
+2026-06-06 11:10:01 [http]: [0mGET /api/dashboard/stats [32m200[0m 14.421 ms - 653[0m
+2026-06-06 11:10:01 [http]: [0mPOST /api/auth/login [32m200[0m 172.315 ms - 354[0m
+2026-06-06 11:10:01 [http]: [0mGET /api/dashboard/stats [32m200[0m 12.252 ms - 1236[0m
+2026-06-06 11:10:01 [http]: [0mPOST /api/auth/login [32m200[0m 125.399 ms - 347[0m
+2026-06-06 11:10:01 [http]: [0mGET /api/dashboard/stats [32m200[0m 11.585 ms - 667[0m
+2026-06-06 11:12:35 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 11:12:35 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 11:12:35 [info]: 📋 Environment: development
+2026-06-06 11:13:32 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 11:13:32 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 11:13:32 [info]: 📋 Environment: development
+2026-06-06 11:13:36 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 11:13:36 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 11:13:36 [info]: 📋 Environment: development
+2026-06-06 11:15:47 [http]: [0mPOST /api/auth/login [32m200[0m 147.439 ms - 354[0m
+2026-06-06 11:15:47 [http]: [0mPOST /api/vendors [33m403[0m 4.948 ms - 75[0m
+2026-06-06 11:15:47 [http]: [0mPOST /api/auth/login [32m200[0m 94.345 ms - 354[0m
+2026-06-06 11:15:48 [http]: [0mPOST /api/vendors [32m201[0m 294.733 ms - 611[0m
+2026-06-06 11:15:48 [http]: [0mPOST /api/vendors [33m400[0m 3.372 ms - 72[0m
+2026-06-06 11:15:48 [http]: [0mGET /api/vendors?search=Apex [32m200[0m 10.278 ms - 432[0m
+2026-06-06 11:15:48 [http]: [0mPATCH /api/vendors/3a9651f2-976d-44a1-a6e8-519dcac82a53/status [32m200[0m 76.028 ms - 613[0m
+2026-06-06 11:15:48 [http]: [0mPOST /api/auth/login [32m200[0m 133.929 ms - 342[0m
+2026-06-06 11:15:48 [http]: [0mDELETE /api/vendors/3a9651f2-976d-44a1-a6e8-519dcac82a53 [32m200[0m 175.593 ms - 56[0m
+2026-06-06 12:33:39 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 12:33:39 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 12:33:39 [info]: 📋 Environment: development
+2026-06-06 12:37:30 [http]: [0mPOST /api/auth/login [32m200[0m 584.035 ms - 354[0m
+2026-06-06 12:37:30 [http]: [0mPOST /api/vendors [32m201[0m 151.341 ms - 390[0m
+2026-06-06 12:37:30 [http]: [0mPOST /api/rfqs [33m400[0m 8.827 ms - 121[0m
+2026-06-06 12:37:30 [http]: [0mPOST /api/rfqs [33m400[0m 4.755 ms - 122[0m
+2026-06-06 12:37:31 [http]: [0mPOST /api/rfqs [32m201[0m 439.808 ms - 748[0m
+2026-06-06 12:37:31 [http]: [0mPOST /api/auth/login [32m200[0m 186.939 ms - 347[0m
+2026-06-06 12:37:31 [http]: [0mGET /api/vendors [32m200[0m 277.906 ms - 3168[0m
+2026-06-06 12:37:31 [error]: Error: Column 'vendor_id' cannot be null
+    at inviteVendors (C:\odooxksv\server\src\controllers\rfqController.ts:247:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-06 12:37:31 [http]: [0mPOST /api/rfqs/b56a047e-b12c-446c-a199-4321556146dc/invite [31m500[0m 21.286 ms - 49[0m
+2026-06-06 12:37:32 [http]: [0mGET /api/rfqs [32m200[0m 16.235 ms - 436[0m
+2026-06-06 12:37:32 [http]: [0mPUT /api/rfqs/b56a047e-b12c-446c-a199-4321556146dc [32m200[0m 67.861 ms - 752[0m
+2026-06-06 12:37:32 [http]: [0mGET /api/rfqs [32m200[0m 7.885 ms - 436[0m
+2026-06-06 12:37:57 [http]: [0mPOST /api/auth/login [32m200[0m 179.234 ms - 354[0m
+2026-06-06 12:37:57 [http]: [0mPOST /api/vendors [33m400[0m 5.813 ms - 72[0m
+2026-06-06 12:37:58 [http]: [0mPOST /api/rfqs [33m400[0m 2.487 ms - 121[0m
+2026-06-06 12:37:58 [http]: [0mPOST /api/rfqs [33m400[0m 2.660 ms - 122[0m
+2026-06-06 12:37:58 [http]: [0mPOST /api/rfqs [33m400[0m 4.030 ms - 145[0m
+2026-06-06 12:37:58 [http]: [0mPOST /api/auth/login [32m200[0m 176.317 ms - 347[0m
+2026-06-06 12:37:59 [http]: [0mGET /api/vendors [32m200[0m 394.736 ms - 3168[0m
+2026-06-06 12:37:59 [http]: [0mPOST /api/rfqs//invite [33m404[0m 3.185 ms - 43[0m
+2026-06-06 12:37:59 [http]: [0mGET /api/rfqs [32m200[0m 5.348 ms - 436[0m
+2026-06-06 12:37:59 [http]: [0mPUT /api/rfqs/ [33m404[0m 2.619 ms - 43[0m
+2026-06-06 12:37:59 [http]: [0mGET /api/rfqs [32m200[0m 7.033 ms - 436[0m
+2026-06-06 12:38:22 [http]: [0mPOST /api/auth/login [32m200[0m 162.425 ms - 354[0m
+2026-06-06 12:38:22 [http]: [0mPOST /api/vendors [32m201[0m 28.794 ms - 399[0m
+2026-06-06 12:38:22 [http]: [0mPOST /api/rfqs [33m400[0m 2.145 ms - 121[0m
+2026-06-06 12:38:22 [http]: [0mPOST /api/rfqs [33m400[0m 2.074 ms - 122[0m
+2026-06-06 12:38:22 [http]: [0mPOST /api/rfqs [32m201[0m 68.507 ms - 748[0m
+2026-06-06 12:38:22 [http]: [0mPOST /api/auth/login [32m200[0m 153.373 ms - 347[0m
+2026-06-06 12:38:23 [http]: [0mGET /api/vendors [32m200[0m 342.519 ms - 3528[0m
+2026-06-06 12:38:23 [http]: [0mPOST /api/rfqs/af274df2-89b8-4056-bcf3-52d8b75ee60f/invite [32m200[0m 597.923 ms - 935[0m
+2026-06-06 12:38:23 [http]: [0mGET /api/rfqs [32m200[0m 7.331 ms - 436[0m
+2026-06-06 12:38:24 [http]: [0mPUT /api/rfqs/af274df2-89b8-4056-bcf3-52d8b75ee60f [32m200[0m 75.436 ms - 939[0m
+2026-06-06 12:38:24 [http]: [0mGET /api/rfqs [32m200[0m 6.839 ms - 732[0m
+2026-06-06 12:38:24 [http]: [0mPOST /api/auth/login [32m200[0m 161.285 ms - 342[0m
+2026-06-06 12:38:24 [http]: [0mDELETE /api/vendors/33fc76d4-8e3c-48a2-8138-131fb8bca875 [32m200[0m 105.742 ms - 56[0m
+2026-06-06 12:40:15 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 12:40:15 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 12:40:15 [info]: 📋 Environment: development
+2026-06-06 12:41:36 [http]: [0mPOST /api/auth/login [32m200[0m 213.154 ms - 354[0m
+2026-06-06 12:41:36 [http]: [0mGET /api/vendors [32m200[0m 48.134 ms - 3168[0m
+2026-06-06 12:41:36 [http]: [0mPOST /api/rfqs [32m201[0m 61.649 ms - 708[0m
+2026-06-06 12:41:36 [http]: [0mPOST /api/auth/login [32m200[0m 164.140 ms - 347[0m
+2026-06-06 12:41:36 [http]: [0mPOST /api/quotations [32m201[0m 53.515 ms - 479[0m
+2026-06-06 12:41:36 [http]: [0mPOST /api/auth/login [32m200[0m 167.698 ms - 347[0m
+2026-06-06 12:41:36 [http]: [0mPOST /api/quotations [33m403[0m 6.303 ms - 113[0m
+2026-06-06 12:41:36 [http]: [0mGET /api/quotations/1dfde579-4828-4737-be8f-687d6b0a68ff [32m200[0m 10.525 ms - 581[0m
+2026-06-06 12:41:36 [http]: [0mPUT /api/quotations/1dfde579-4828-4737-be8f-687d6b0a68ff [32m200[0m 18.906 ms - 478[0m
+2026-06-06 12:41:36 [http]: [0mPUT /api/rfqs/df73b811-f33f-4202-afb0-678a32cb2a7b [32m200[0m 33.205 ms - 900[0m
+2026-06-06 12:43:08 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 12:43:08 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 12:43:08 [info]: 📋 Environment: development
+2026-06-06 12:44:13 [http]: [0mPOST /api/auth/login [32m200[0m 218.772 ms - 354[0m
+2026-06-06 12:44:13 [http]: [0mGET /api/vendors [32m200[0m 195.986 ms - 3168[0m
+2026-06-06 12:44:14 [http]: [0mPOST /api/rfqs [32m201[0m 58.378 ms - 717[0m
+2026-06-06 12:44:14 [http]: [0mPOST /api/auth/login [32m200[0m 140.755 ms - 347[0m
+2026-06-06 12:44:14 [http]: [0mPOST /api/quotations [32m201[0m 38.904 ms - 473[0m
+2026-06-06 12:44:14 [http]: [0mPOST /api/approvals [32m201[0m 103.290 ms - 511[0m
+2026-06-06 12:44:14 [http]: [0mPOST /api/auth/login [32m200[0m 157.621 ms - 354[0m
+2026-06-06 12:44:14 [http]: [0mPUT /api/approvals/9a92eb8f-ea34-412f-b068-d853b087862c/review [32m200[0m 18.240 ms - 772[0m
+2026-06-06 12:44:14 [http]: [0mPUT /api/approvals/9a92eb8f-ea34-412f-b068-d853b087862c/review [32m200[0m 87.658 ms - 990[0m
+2026-06-06 12:44:14 [http]: [0mGET /api/rfqs/6a705f6a-0063-42ac-8568-231ea25e6081 [32m200[0m 10.475 ms - 1535[0m
+2026-06-06 12:45:13 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 12:45:13 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 12:45:13 [info]: 📋 Environment: development
+2026-06-06 12:46:24 [http]: [0mPOST /api/auth/login [32m200[0m 244.702 ms - 354[0m
+2026-06-06 12:46:25 [http]: [0mGET /api/purchase-orders [32m200[0m 10.260 ms - 1106[0m
+2026-06-06 12:46:25 [http]: [0mPUT /api/purchase-orders/dd440467-ad94-4378-9336-d5cc55931cee/status [32m200[0m 30.203 ms - 641[0m
+2026-06-06 12:46:25 [http]: [0mPUT /api/purchase-orders/dd440467-ad94-4378-9336-d5cc55931cee/status [32m200[0m 27.836 ms - 639[0m
+2026-06-06 12:47:37 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 12:47:37 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 12:47:37 [info]: 📋 Environment: development
+2026-06-06 12:49:01 [http]: [0mPOST /api/auth/login [32m200[0m 165.651 ms - 347[0m
+2026-06-06 12:49:01 [http]: [0mGET /api/purchase-orders [32m200[0m 12.125 ms - 604[0m
+2026-06-06 12:49:02 [info]: [MOCK EMAIL SENT] To: officer@vendorbridge.com | Subject: New Invoice Submitted: VB-INV-2026-001
+2026-06-06 12:49:02 [info]: [MOCK EMAIL BODY] Hi,
+
+Vendor TechNova Solutions Pvt Ltd has submitted a new invoice VB-INV-2026-001 for your review. Total amount: INR 7080.
+
+View details inside the portal: http://localhost:5173/invoices/d728d854-b347-4f45-9d70-4438069a8065
+2026-06-06 12:49:02 [http]: [0mPOST /api/invoices [32m201[0m 62.876 ms - 720[0m
+2026-06-06 12:49:02 [http]: [0mPOST /api/auth/login [32m200[0m 118.820 ms - 354[0m
+2026-06-06 12:49:02 [info]: [MOCK EMAIL SENT] To: priya@technova.in | Subject: Invoice Settled: VB-INV-2026-001
+2026-06-06 12:49:02 [info]: [MOCK EMAIL BODY] Hi TechNova Solutions Pvt Ltd,
+
+We are pleased to inform you that your invoice VB-INV-2026-001 has been successfully paid.
+
+Total paid: INR 7080.
+
+Thank you for your business!
+2026-06-06 12:49:02 [http]: [0mPUT /api/invoices/d728d854-b347-4f45-9d70-4438069a8065/status [32m200[0m 24.166 ms - 742[0m
+2026-06-06 13:06:24 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 13:06:24 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 13:06:24 [info]: 📋 Environment: development
+2026-06-06 13:06:50 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 13:06:50 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 13:06:50 [info]: 📋 Environment: development
+2026-06-06 13:08:03 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 13:08:03 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 13:08:03 [info]: 📋 Environment: development
+2026-06-06 13:12:20 [info]: Starting MySQL Database Setup...
+2026-06-06 13:12:20 [info]: Cleaning up existing tables if any...
+2026-06-06 13:12:21 [info]: ✅ Database cleaned up.
+2026-06-06 13:12:21 [info]: Reading schema from: C:\odooxksv\database\schema.sql
+2026-06-06 13:12:21 [info]: Executing Schema SQL...
+2026-06-06 13:12:23 [info]: ✅ Schema SQL executed successfully.
+2026-06-06 13:12:23 [info]: Reading seed data from: C:\odooxksv\database\seed.sql
+2026-06-06 13:12:23 [info]: Executing Seed SQL...
+2026-06-06 13:12:23 [info]: ✅ Seed SQL executed successfully.
+2026-06-06 13:12:23 [info]: 🎉 MySQL Database Setup Completed Successfully!
+2026-06-06 13:18:20 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 13:18:20 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 13:18:20 [info]: 📋 Environment: development
+2026-06-06 13:32:53 [http]: [0mPOST /api/auth/login [32m200[0m 357.036 ms - 342[0m
+2026-06-06 13:32:54 [http]: [0mGET /api/notifications [32m200[0m 26.139 ms - 35[0m
+2026-06-06 13:32:54 [http]: [0mGET /api/notifications [36m304[0m 4.344 ms - -[0m
+2026-06-06 13:32:54 [http]: [0mGET /api/auth/me [32m200[0m 153.893 ms - 152[0m
+2026-06-06 13:32:54 [http]: [0mGET /api/auth/me [36m304[0m 11.788 ms - -[0m
+2026-06-06 13:32:54 [http]: [0mGET /api/dashboard/stats [32m200[0m 428.660 ms - 1552[0m
+2026-06-06 13:32:54 [http]: [0mGET /api/dashboard/stats [36m304[0m 17.484 ms - -[0m
+2026-06-06 13:33:23 [http]: [0mGET /api/notifications [36m304[0m 5.798 ms - -[0m
+2026-06-06 13:33:33 [http]: [0mGET /api/activity-logs [32m200[0m 13.881 ms - 2625[0m
+2026-06-06 13:33:33 [http]: [0mGET /api/activity-logs [36m304[0m 9.862 ms - -[0m
+2026-06-06 13:33:44 [http]: [0mGET /api/reports/data [32m200[0m 33.776 ms - 609[0m
+2026-06-06 13:33:44 [http]: [0mGET /api/reports/data [36m304[0m 18.129 ms - -[0m
+2026-06-06 13:33:53 [http]: [0mGET /api/notifications [36m304[0m 6.162 ms - -[0m
+2026-06-06 13:34:23 [http]: [0mGET /api/notifications [36m304[0m 5.718 ms - -[0m
+2026-06-06 13:34:50 [http]: [0mGET /api/quotations [32m200[0m 7.834 ms - 1591[0m
+2026-06-06 13:34:50 [http]: [0mGET /api/quotations [36m304[0m 4.330 ms - -[0m
+2026-06-06 13:34:53 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [32m200[0m 58.895 ms - 1808[0m
+2026-06-06 13:34:53 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 36.978 ms - -[0m
+2026-06-06 13:34:53 [http]: [0mGET /api/notifications [36m304[0m 3.621 ms - -[0m
+2026-06-06 13:35:07 [http]: [0mGET /api/vendors?search=&category=&status=&page=1&limit=8 [32m200[0m 194.353 ms - 2817[0m
+2026-06-06 13:35:07 [http]: [0mGET /api/vendors?search=&category=&status=&page=1&limit=8 [36m304[0m 102.201 ms - -[0m
+2026-06-06 13:35:18 [http]: [0mGET /api/purchase-orders [32m200[0m 123.438 ms - 537[0m
+2026-06-06 13:35:19 [http]: [0mGET /api/purchase-orders [36m304[0m 228.758 ms - -[0m
+2026-06-06 13:35:20 [http]: [0mGET /api/invoices [32m200[0m 82.041 ms - 600[0m
+2026-06-06 13:35:20 [http]: [0mGET /api/invoices [36m304[0m 30.477 ms - -[0m
+2026-06-06 13:35:23 [http]: [0mGET /api/dashboard/stats [36m304[0m 77.948 ms - -[0m
+2026-06-06 13:35:23 [http]: [0mGET /api/dashboard/stats [36m304[0m 115.157 ms - -[0m
+2026-06-06 13:35:24 [http]: [0mGET /api/notifications [36m304[0m 56.900 ms - -[0m
+2026-06-06 13:35:53 [http]: [0mGET /api/vendors?search=&category=&status=&page=1&limit=8 [36m304[0m 263.970 ms - -[0m
+2026-06-06 13:35:53 [http]: [0mGET /api/vendors?search=&category=&status=&page=1&limit=8 [36m304[0m 113.076 ms - -[0m
+2026-06-06 13:35:53 [http]: [0mGET /api/notifications [36m304[0m 19.765 ms - -[0m
+2026-06-06 13:36:03 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 186.526 ms - -[0m
+2026-06-06 13:36:03 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 126.144 ms - -[0m
+2026-06-06 13:36:07 [http]: [0mGET /api/quotations [36m304[0m 60.942 ms - -[0m
+2026-06-06 13:36:07 [http]: [0mGET /api/quotations [36m304[0m 30.035 ms - -[0m
+2026-06-06 13:36:09 [http]: [0mGET /api/approvals [32m200[0m 162.058 ms - 873[0m
+2026-06-06 13:36:09 [http]: [0mGET /api/approvals [36m304[0m 60.929 ms - -[0m
+2026-06-06 13:36:12 [http]: [0mGET /api/purchase-orders [36m304[0m 136.805 ms - -[0m
+2026-06-06 13:36:12 [http]: [0mGET /api/purchase-orders [36m304[0m 83.756 ms - -[0m
+2026-06-06 13:36:13 [http]: [0mGET /api/invoices [36m304[0m 32.419 ms - -[0m
+2026-06-06 13:36:13 [http]: [0mGET /api/invoices [36m304[0m 20.208 ms - -[0m
+2026-06-06 13:36:15 [http]: [0mGET /api/activity-logs [36m304[0m 47.432 ms - -[0m
+2026-06-06 13:36:15 [http]: [0mGET /api/activity-logs [36m304[0m 32.224 ms - -[0m
+2026-06-06 13:36:20 [http]: [0mGET /api/reports/data [36m304[0m 104.706 ms - -[0m
+2026-06-06 13:36:20 [http]: [0mGET /api/reports/data [36m304[0m 157.186 ms - -[0m
+2026-06-06 13:36:24 [http]: [0mGET /api/notifications [36m304[0m 84.844 ms - -[0m
+2026-06-06 13:37:07 [http]: [0mGET /api/notifications [36m304[0m 2.433 ms - -[0m
+2026-06-06 13:37:24 [http]: [0mGET /api/notifications [36m304[0m 5.550 ms - -[0m
+2026-06-06 13:37:54 [http]: [0mGET /api/notifications [36m304[0m 3.119 ms - -[0m
+2026-06-06 13:38:26 [http]: [0mGET /api/notifications [36m304[0m 4.178 ms - -[0m
+2026-06-06 13:38:54 [http]: [0mGET /api/notifications [36m304[0m 5.383 ms - -[0m
+2026-06-06 13:39:25 [http]: [0mGET /api/notifications [36m304[0m 5.332 ms - -[0m
+2026-06-06 13:39:54 [http]: [0mGET /api/notifications [36m304[0m 4.307 ms - -[0m
+2026-06-06 13:40:25 [http]: [0mGET /api/notifications [36m304[0m 3.349 ms - -[0m
+2026-06-06 13:41:01 [http]: [0mGET /api/notifications [36m304[0m 11.635 ms - -[0m
+2026-06-06 13:41:24 [http]: [0mGET /api/notifications [36m304[0m 9.342 ms - -[0m
+2026-06-06 13:41:57 [http]: [0mGET /api/notifications [36m304[0m 12.862 ms - -[0m
+2026-06-06 13:42:24 [http]: [0mGET /api/notifications [36m304[0m 8.807 ms - -[0m
+2026-06-06 13:42:54 [http]: [0mGET /api/notifications [36m304[0m 11.752 ms - -[0m
+2026-06-06 13:43:24 [http]: [0mGET /api/notifications [36m304[0m 9.445 ms - -[0m
+2026-06-06 13:53:03 [http]: [0mGET /api/notifications [36m304[0m 265.536 ms - -[0m
+2026-06-06 14:00:28 [http]: [0mGET /api/notifications [36m304[0m 8.122 ms - -[0m
+2026-06-06 14:00:32 [http]: [0mGET /api/notifications [36m304[0m 29.726 ms - -[0m
+2026-06-06 14:00:32 [http]: [0mGET /api/auth/me [36m304[0m 25.321 ms - -[0m
+2026-06-06 14:00:32 [http]: [0mGET /api/reports/data [36m304[0m 70.752 ms - -[0m
+2026-06-06 14:00:32 [http]: [0mGET /api/auth/me [36m304[0m 11.946 ms - -[0m
+2026-06-06 14:00:32 [http]: [0mGET /api/reports/data [36m304[0m 23.141 ms - -[0m
+2026-06-06 14:05:12 [http]: [0mGET /api/notifications [36m304[0m 15.651 ms - -[0m
+2026-06-06 14:05:13 [http]: [0mGET /api/notifications [36m304[0m 7.103 ms - -[0m
+2026-06-06 14:05:31 [http]: [0mGET /api/notifications [36m304[0m 9.612 ms - -[0m
+2026-06-06 14:05:54 [http]: [0mGET /api/notifications [36m304[0m 6.500 ms - -[0m
+2026-06-06 14:06:24 [http]: [0mGET /api/notifications [36m304[0m 12.474 ms - -[0m
+2026-06-06 14:06:55 [http]: [0mGET /api/notifications [36m304[0m 8.239 ms - -[0m
+2026-06-06 14:07:33 [http]: [0mGET /api/notifications [36m304[0m 6.802 ms - -[0m
+2026-06-06 14:08:33 [http]: [0mGET /api/notifications [36m304[0m 8.577 ms - -[0m
+2026-06-06 14:09:32 [http]: [0mGET /api/notifications [36m304[0m 16.161 ms - -[0m
+2026-06-06 14:10:33 [http]: [0mGET /api/notifications [36m304[0m 7.726 ms - -[0m
+2026-06-06 14:11:51 [http]: [0mGET /api/notifications [36m304[0m 4.448 ms - -[0m
+2026-06-06 14:54:19 [info]: Starting MySQL Database Setup...
+2026-06-06 14:54:19 [info]: Cleaning up existing tables if any...
+2026-06-06 14:54:19 [info]: ✅ Database cleaned up.
+2026-06-06 14:54:19 [info]: Reading schema from: C:\Users\Yashvardhan Jani\Downloads\odooxksv\database\schema.sql
+2026-06-06 14:54:19 [info]: Executing Schema SQL...
+2026-06-06 14:54:20 [info]: ✅ Schema SQL executed successfully.
+2026-06-06 14:54:20 [info]: Reading seed data from: C:\Users\Yashvardhan Jani\Downloads\odooxksv\database\seed.sql
+2026-06-06 14:54:20 [info]: Executing Seed SQL...
+2026-06-06 14:54:20 [info]: ✅ Seed SQL executed successfully.
+2026-06-06 14:54:20 [info]: 🎉 MySQL Database Setup Completed Successfully!
+2026-06-06 14:59:40 [info]: ✅ MySQL Database connected successfully.
+2026-06-06 14:59:40 [info]: 🚀 VendorBridge server running on port 5000
+2026-06-06 14:59:40 [info]: 📋 Environment: development
+2026-06-06 15:01:31 [http]: [0mPOST /api/auth/login [32m200[0m 127.002 ms - 342[0m
+2026-06-06 15:01:31 [http]: [0mGET /api/notifications [32m200[0m 24.325 ms - 35[0m
+2026-06-06 15:01:31 [http]: [0mGET /api/auth/me [32m200[0m 22.903 ms - 152[0m
+2026-06-06 15:01:31 [http]: [0mGET /api/notifications [36m304[0m 13.227 ms - -[0m
+2026-06-06 15:01:31 [http]: [0mGET /api/auth/me [36m304[0m 12.727 ms - -[0m
+2026-06-06 15:01:31 [http]: [0mGET /api/dashboard/stats [32m200[0m 84.629 ms - 1552[0m
+2026-06-06 15:01:31 [http]: [0mGET /api/dashboard/stats [36m304[0m 10.400 ms - -[0m
+2026-06-06 15:02:01 [http]: [0mPOST /api/auth/login [32m200[0m 110.822 ms - 354[0m
+2026-06-06 15:02:01 [http]: [0mGET /api/notifications [32m200[0m 19.188 ms - 300[0m
+2026-06-06 15:02:01 [http]: [0mGET /api/auth/me [32m200[0m 14.517 ms - 159[0m
+2026-06-06 15:02:01 [http]: [0mGET /api/auth/me [36m304[0m 5.210 ms - -[0m
+2026-06-06 15:02:01 [http]: [0mGET /api/notifications [36m304[0m 11.544 ms - -[0m
+2026-06-06 15:02:01 [http]: [0mGET /api/dashboard/stats [32m200[0m 52.139 ms - 653[0m
+2026-06-06 15:02:01 [http]: [0mGET /api/dashboard/stats [36m304[0m 9.532 ms - -[0m
+2026-06-06 15:02:21 [http]: [0mGET /api/invoices [32m200[0m 6.908 ms - 600[0m
+2026-06-06 15:02:21 [http]: [0mGET /api/invoices [36m304[0m 5.765 ms - -[0m
+2026-06-06 15:02:26 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [32m200[0m 17.204 ms - 1808[0m
+2026-06-06 15:02:26 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 6.715 ms - -[0m
+2026-06-06 15:02:30 [http]: [0mGET /api/dashboard/stats [36m304[0m 19.549 ms - -[0m
+2026-06-06 15:02:30 [http]: [0mGET /api/dashboard/stats [36m304[0m 20.280 ms - -[0m
+2026-06-06 15:02:31 [http]: [0mGET /api/notifications [36m304[0m 5.478 ms - -[0m
+2026-06-06 15:02:35 [http]: [0mGET /api/reports/data [32m200[0m 26.424 ms - 609[0m
+2026-06-06 15:02:35 [http]: [0mGET /api/reports/data [36m304[0m 15.877 ms - -[0m
+2026-06-06 15:02:51 [http]: [0mGET /api/invoices [36m304[0m 5.208 ms - -[0m
+2026-06-06 15:02:51 [http]: [0mGET /api/invoices [36m304[0m 4.491 ms - -[0m
+2026-06-06 15:02:53 [http]: [0mGET /api/invoices/inv-001 [32m200[0m 30.568 ms - 849[0m
+2026-06-06 15:02:53 [http]: [0mGET /api/invoices/inv-001 [36m304[0m 15.667 ms - -[0m
+2026-06-06 15:03:02 [http]: [0mGET /api/notifications [36m304[0m 3.561 ms - -[0m
+2026-06-06 15:03:31 [http]: [0mGET /api/notifications [36m304[0m 5.058 ms - -[0m
+2026-06-06 15:04:01 [http]: [0mGET /api/notifications [36m304[0m 2.330 ms - -[0m
+2026-06-06 15:04:31 [http]: [0mGET /api/notifications [36m304[0m 5.056 ms - -[0m
+2026-06-06 15:05:01 [http]: [0mGET /api/notifications [36m304[0m 5.203 ms - -[0m
+2026-06-06 15:05:12 [http]: [0mGET /api/invoices [36m304[0m 9.329 ms - -[0m
+2026-06-06 15:05:12 [http]: [0mGET /api/invoices [36m304[0m 9.312 ms - -[0m
+2026-06-06 15:05:13 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 8.715 ms - -[0m
+2026-06-06 15:05:13 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 6.934 ms - -[0m
+2026-06-06 15:05:15 [http]: [0mGET /api/dashboard/stats [36m304[0m 29.759 ms - -[0m
+2026-06-06 15:05:15 [http]: [0mGET /api/dashboard/stats [36m304[0m 20.595 ms - -[0m
+2026-06-06 15:05:16 [http]: [0mGET /api/approvals [32m200[0m 8.493 ms - 873[0m
+2026-06-06 15:05:16 [http]: [0mGET /api/approvals [36m304[0m 3.932 ms - -[0m
+2026-06-06 15:05:22 [http]: [0mPOST /api/auth/login [32m200[0m 99.981 ms - 354[0m
+2026-06-06 15:05:22 [http]: [0mGET /api/notifications [32m200[0m 9.765 ms - 571[0m
+2026-06-06 15:05:22 [http]: [0mGET /api/auth/me [32m200[0m 7.084 ms - 159[0m
+2026-06-06 15:05:22 [http]: [0mGET /api/auth/me [36m304[0m 3.447 ms - -[0m
+2026-06-06 15:05:22 [http]: [0mGET /api/notifications [36m304[0m 9.132 ms - -[0m
+2026-06-06 15:05:22 [http]: [0mGET /api/dashboard/stats [32m200[0m 32.302 ms - 1236[0m
+2026-06-06 15:05:22 [http]: [0mGET /api/dashboard/stats [36m304[0m 8.457 ms - -[0m
+2026-06-06 15:05:36 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 7.358 ms - -[0m
+2026-06-06 15:05:36 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 5.310 ms - -[0m
+2026-06-06 15:05:39 [http]: [0mGET /api/vendors?export=true&status=Active [32m200[0m 5.268 ms - 2065[0m
+2026-06-06 15:05:39 [http]: [0mGET /api/vendors?export=true&status=Active [36m304[0m 4.833 ms - -[0m
+2026-06-06 15:05:51 [http]: [0mGET /api/dashboard/stats [36m304[0m 19.771 ms - -[0m
+2026-06-06 15:05:51 [http]: [0mGET /api/dashboard/stats [36m304[0m 21.163 ms - -[0m
+2026-06-06 15:05:52 [http]: [0mGET /api/notifications [36m304[0m 4.482 ms - -[0m
+2026-06-06 15:05:59 [http]: [0mPOST /api/auth/login [32m200[0m 93.712 ms - 347[0m
+2026-06-06 15:06:00 [http]: [0mGET /api/notifications [32m200[0m 8.898 ms - 297[0m
+2026-06-06 15:06:00 [http]: [0mGET /api/auth/me [32m200[0m 2.156 ms - 155[0m
+2026-06-06 15:06:00 [http]: [0mGET /api/auth/me [36m304[0m 6.598 ms - -[0m
+2026-06-06 15:06:00 [http]: [0mGET /api/notifications [36m304[0m 7.483 ms - -[0m
+2026-06-06 15:06:00 [http]: [0mGET /api/dashboard/stats [32m200[0m 25.762 ms - 667[0m
+2026-06-06 15:06:00 [http]: [0mGET /api/dashboard/stats [36m304[0m 12.168 ms - -[0m
+2026-06-06 15:06:09 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [32m200[0m 6.579 ms - 435[0m
+2026-06-06 15:06:09 [http]: [0mGET /api/rfqs?search=&status=&page=1&limit=8 [36m304[0m 6.088 ms - -[0m
+2026-06-06 15:29:53 [http]: [0mPOST /api/auth/login [32m200[0m 240.288 ms - 342[0m
+2026-06-06 15:29:53 [http]: [0mGET /api/notifications [32m200[0m 17.499 ms - 35[0m
+2026-06-06 15:29:53 [http]: [0mGET /api/notifications [36m304[0m 12.683 ms - -[0m
+2026-06-06 15:29:53 [http]: [0mGET /api/auth/me [32m200[0m 9.067 ms - 152[0m
+2026-06-06 15:29:53 [http]: [0mGET /api/auth/me [36m304[0m 3.084 ms - -[0m
+2026-06-06 15:29:53 [http]: [0mGET /api/dashboard/stats [32m200[0m 50.718 ms - 1552[0m
+2026-06-06 15:29:53 [http]: [0mGET /api/dashboard/stats [36m304[0m 6.407 ms - -[0m
+2026-06-06 15:30:23 [http]: [0mGET /api/notifications [36m304[0m 6.186 ms - -[0m
+2026-06-06 15:30:34 [http]: [0mGET /api/notifications [36m304[0m 4.545 ms - -[0m
+2026-06-06 15:30:34 [http]: [0mGET /api/auth/me [36m304[0m 6.178 ms - -[0m
+2026-06-06 15:30:34 [http]: [0mGET /api/notifications [36m304[0m 12.495 ms - -[0m
+2026-06-06 15:30:34 [http]: [0mGET /api/auth/me [36m304[0m 4.230 ms - -[0m
+2026-06-06 15:30:34 [http]: [0mGET /api/dashboard/stats [36m304[0m 23.203 ms - -[0m
+2026-06-06 15:30:34 [http]: [0mGET /api/dashboard/stats [36m304[0m 11.746 ms - -[0m
+2026-06-06 15:31:04 [http]: [0mGET /api/notifications [36m304[0m 5.675 ms - -[0m
+2026-06-06 15:31:07 [http]: [0mGET /api/notifications [36m304[0m 8.965 ms - -[0m
+2026-06-06 15:31:07 [http]: [0mGET /api/notifications [36m304[0m 7.911 ms - -[0m
+2026-06-06 15:31:07 [http]: [0mGET /api/auth/me [36m304[0m 3.481 ms - -[0m
+2026-06-06 15:31:07 [http]: [0mGET /api/dashboard/stats [36m304[0m 11.013 ms - -[0m
+2026-06-06 15:31:07 [http]: [0mGET /api/auth/me [36m304[0m 2.402 ms - -[0m
+2026-06-06 15:31:07 [http]: [0mGET /api/dashboard/stats [36m304[0m 50.937 ms - -[0m
